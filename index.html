@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamZa Flora</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-EbiYw6RbzR6+DnDDUjy6kG3qz9UrJgBUD+eJZCq5DqNjlKp/+vNHYWPLJ8bl+ilz" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="image/logo.png">
+</head>
+<body>
+
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="image/logo.png"></a>
+            </div>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Gallary">Gallery</a></li>
+                <li><a href="#Review">Review</a></li>
+                <li><a href="#Order">Order</a></li>
+            </ul>
+            <li class="search">
+                <input type="text" placeholder="Search" id="search-input">
+                <button onclick="search()">Search</button>
+            </li>
+
+
+
+
+            <div class="icon">
+                <!-- <i class="fa-solid fa-magnifying-glass" id="search-icon"></i> -->
+                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+            </div>
+
+
+        </nav>
+
+        <div class="main">
+
+            <div class="men_text">
+                <h1>TOP 100 <span1>WEEKNIGHT</span1> <span2> DINNERS</span2></h1>
+            </div>
+
+            <div id="video-container">
+                <video autoplay loop muted>
+                  <source src="image/chinese.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+
+
+            <!-- <div class="main_image">
+                <img src="image/main_img.png">
+            </div>-->
+
+        </div>
+
+        <p>
+            FRESH FROM OUR COMMUNITY.<br>WHAT WE'RE CRAVING.
+        </p>
+
+        <div class="main_btn">
+            <a href="/project/camzen/Food%20Website/discount/dis.html">SEE THEM ALL</a>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+    </section>
+
+
+
+    <!--About-->
+
+    <div class="about" id="About">
+        <div class="about_main">
+
+            <div class="image">
+                <img src="image/Food-Plate.png">
+            </div>
+
+            <div class="about_text">
+                <h1><span>About</span>Us</h1>
+                <h3>Why Choose us?</h3>
+                <p>
+                    At CamZa Flora, we're lucky to have an office full of folks who are passionate about all things food and home. Our Test Kitchen includes professional chefs, registered dietitians and other culinary experts who help bring your best recipes to life. These pros partner with our editorial team to share must-know cooking techniques and the latest food trends, plus entertaining tips, gift ideas and cleaning advice we know you'll love, too.
+                    </p>
+            </div>
+
+        </div>
+
+        <a href="#Order" class="about_btn">Order Now</a>
+
+    </div>
+
+
+
+    <!--Menu-->
+
+    <div class="menu" id="Menu">
+        <h1>Our<span>Menu</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/buger.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Burger</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+            
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/pasta.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>pasta</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/lasagna.webp">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>lasagna</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/chocolate_Drink.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Drink</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/pizza.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>pizza</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/Hot_dog.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Hot Dog</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/juse.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Juice</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/biryani.webp">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Biryani</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/chocolate.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Chocolate</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/ice_cream.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Ice Cream</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/Spanchi.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Cup Cake</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/sandwich.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Sandwich</h2>
+                    <p>
+                        Thinly sliced beef with mixed vegetables stir-fried in a savory soy sauce.
+                    </p>
+                    <h3>$20.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu_btn">Order Now</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!--Gallery-->
+
+    <div class="gallary" id="Gallary">
+        <h1>Our<span>Gallery</span></h1>
+
+        <div class="gallary_image_box">
+            <div class="gallary_image">
+                <img src="image/gallary_1.jpg">
+
+                <h3>Pizza</h3>
+                <p>
+                    Fettuccine pasta smothered in creamy Parmesan sauce with seasoned chicken.
+                </p>
+                <a href="#Order" class="gallary_btn">Order Now</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="image/gallary_2.jpg">
+
+                <h3>Cup Cake</h3>
+                <p>
+                    Fettuccine pasta smothered in creamy Parmesan sauce with seasoned chicken.
+                </p>
+                <a href="#Order" class="gallary_btn">Order Now</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="image/gallary_3.jpg">
+
+                <h3>Chocolate Cake</h3>
+                <p>
+                    Fettuccine pasta smothered in creamy Parmesan sauce with seasoned chicken.
+                </p>
+                <a href="#Order" class="gallary_btn">Order Now</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="image/gallary_4.jpg">
+
+                <h3>Bread Cake</h3>
+                <p>
+                    Fettuccine pasta smothered in creamy Parmesan sauce with seasoned chicken.
+                </p>
+                <a href="#Order" class="gallary_btn">Order Now</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="image/gallary_5.jpg">
+
+                <h3>Pizza</h3>
+                <p>
+                    Fettuccine pasta smothered in creamy Parmesan sauce with seasoned chicken.
+                </p>
+                <a href="#Order" class="gallary_btn">Order Now</a>
+            </div>
+
+            <div class="gallary_image">
+                <img src="image/gallary_6.jpg">
+
+                <h3>Cake</h3>
+                <p>
+                    Fettuccine pasta smothered in creamy Parmesan sauce with seasoned chicken.
+                </p>
+                <a href="#Order" class="gallary_btn">Order Now</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--Review-->
+
+    <div class="review" id="Review">
+        <h1>Customer<span>Review</span></h1>
+
+        <div class="review_box">
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="image/yoyo.jpg">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Ernest Yoyowah</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="review_social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <p>
+                   Herrh you people why, your food no dey bee kraa why, u no go catering school or what.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="image/rex.jpj">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Omer Rex</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="review_social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <p>
+                        Very good!! I added some garlic, and chopped baby spinach for a recipe I was making, spaghetti squash with chicken and this sauce was the bomb!! Thank you!!
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="image/Berla.jpg">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Christabel Otoo</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="review_social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <p>
+                        I don't understand all the complaints, tweaks, changes etc. This was EXACTLY as described and expected, brothy and delicious. The only &quot;change&quot; I made was 3/4 recipe because I only had 1 1/2lb beef! SIX stars!
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <img src="image/duah.jpg">
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Osikani Nana Duah</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="review_social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <p>
+                        Great Rye! Easy BUT Rye flavor too strong. Will use more bread flour next time && less rye. BUT all-in all great taste. FIRST TOME I USED West bnd bread machine..5 stars.??????                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Order-->
+
+    <div class="order" id="Order">
+        <h1><span>Order</span>Now</h1>
+
+        <div class="order_main">
+
+            <div class="order_image">
+                <img src="image/order_image.png">
+            </div>
+
+            <form action="#">
+
+                <div class="input">
+                    <p>Name</p>
+                    <input type="text" placeholder="Your name">
+                </div>
+
+                <div class="input">
+                    <p>Email</p>
+                    <input type="email" placeholder="Your email">
+                </div>
+
+                <div class="input">
+                    <p>Number</p>
+                    <input placeholder="Your number">
+                </div>
+
+                <div class="input">
+                    <p>How Many</p>
+                    <input type="number" placeholder="How many orders">
+                </div>
+
+                <div class="input">
+                    <p>Your Order</p>
+                    <input placeholder="Food name">
+                </div>
+
+                <div class="input">
+                    <p>Address</p>
+                    <input placeholder="Your Address">
+                </div>
+
+                <a href="#" class="order_btn">Order Now</a>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Team-->
+
+    <div class="team">
+        <h1>Our<span>Team</span></h1>
+
+        <div class="team_box">
+            <div class="profile">
+                <img src="image/chef11.png">
+
+                <div class="info">
+                    <h2 class="name">Michael Tsatsu</h2>
+                    <p class="bio">The first Black chef in New York City</p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/chef22.png">
+
+                <div class="info">
+                    <h2 class="name">Maa Bena Yeboah</h2>
+                    <p class="bio">Woman in Charge of the Kitchen - Essence
+                    </p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/chef33.png">
+
+                <div class="info">
+                    <h2 class="name">Adwoa Tiger</h2>
+                    <p class="bio">The First Black Woman to Earn a Michelin Star </p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/chef4.jpg">
+
+                <div class="info">
+                    <h2 class="name">Efo Illegal Bills</h2>
+                    <p class="bio">Great African American Chefs | FareStart
+                        </p>
+
+                    <div class="team_icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer_main">
+
+            <div class="footer_tag">
+                <h2>Address</h2>
+                <p>Accra-Tesano</p>
+                <p>Abeka-Road</p>
+                <p>B825/22</p>
+                <p>Near CBG Bank</p>
+                <p></p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Quick Link</h2>
+                <p><a href="#Home">Home</a></p>
+                <p><a href="#About">About</a></p>
+                <p><a href="#Menu">Menu</a></p>
+                <p><a href="#Gallary">Gallary</a></p>
+                <p><a href="#Order">Order</a></p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p><a>+233 050 692 3484</a></p>
+                <p>+233 255 568 2456</p>
+                <p>ernestniiyoyowah@gmail.com</p>
+                <p>exconzy26@gmail.com</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Our Service</h2>
+                <p>Fast Delivery</p>
+                <p>Easy Payments</p>
+                <p>24 x 7 Service</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Follows</h2>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+        </div>
+
+        <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> Ernest Yoyowah</span></p>
+
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
